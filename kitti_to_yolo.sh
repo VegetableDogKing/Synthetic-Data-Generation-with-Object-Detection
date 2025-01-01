@@ -1,0 +1,1 @@
+python kitti_label.py --label_dir button_data/Camera/object_detection --image_2_dir button_data/Camera/rgb

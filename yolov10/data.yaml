@@ -1,0 +1,27 @@
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO 2017 dataset https://cocodataset.org by Microsoft
+# Documentation: https://docs.ultralytics.com/datasets/detect/coco/
+# Example usage: yolo train data=coco.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+
+path: yolov10/datasets
+train: train.txt
+val: val.txt
+test: test.txt
+
+# Classes
+names:
+  0: BSwitch
+  1: GRBtn
+  2: GSwitch
+  3: RRockBtn
+  4: RSRBtn
+  5: RSwitch
+  6: RYPushBtn
+  7: yBtn
+  8: YSRoundBtn
+  9: Handle
+  10: Valve
